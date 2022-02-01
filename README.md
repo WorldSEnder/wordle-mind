@@ -21,9 +21,9 @@ session:
 ```
 (.venv) $ python analyze.py 
 Analyzing possible guesses: 100%|██████████████████████████| 12972/12972 [00:08<00:00, 1460.80it/s]
-Play the word 'raise' next:    !!   
+Play the word 'raise' next: ...GG
 Analyzing possible guesses: 100%|████████████████████████| 12972/12972 [00:00<00:00, 120361.36it/s]
-Play the word 'cloth' next:   !??
+Play the word 'cloth' next: ..GYY
 You win by playing 'those'
 ```
 

@@ -74,8 +74,8 @@ class WordleResult(namedtuple('WordleResult', 'number')):
         correct_indices = []
         correct_chars = defaultdict(int)
         for (i, x) in enumerate(user_input):
-            if x == '!': correct_indices.append(i)
-            elif x == '?': correct_chars[guess[i]] += 1
+            if x in "!gG": correct_indices.append(i)
+            elif x in "?yY": correct_chars[guess[i]] += 1
         return WordleResult.from_readable(correct_indices, correct_chars)
 
 def wordle(word, guess):
